@@ -2,7 +2,7 @@
  * LoRa_i.h
  *
  *  Created on: Nov 1, 2024
- *      Author: subhr
+ *      Author: subhra
  */
 
 #ifndef INC_LORA_I_H_
