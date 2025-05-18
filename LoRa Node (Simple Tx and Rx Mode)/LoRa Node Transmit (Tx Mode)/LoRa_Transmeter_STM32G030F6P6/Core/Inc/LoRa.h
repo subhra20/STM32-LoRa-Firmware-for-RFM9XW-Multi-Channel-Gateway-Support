@@ -7,15 +7,7 @@
 
 #ifndef INC_LORA_H_
 #define INC_LORA_H_
-/*
-// -------------------------------------------------- \\
-// |                                                | \\
-// |            WRITTEN BY: Sslman Motlaq           | \\
-// |               Telegram: @S_Motlaq              | \\
-// |         E-MAIL:  pilot.motlaq@gmail.com        | \\
-// |                                                | \\
-// -------------------------------------------------- //
-*/
+
 #include "main.h"
 
 #define TRANSMIT_TIMEOUT		2000
