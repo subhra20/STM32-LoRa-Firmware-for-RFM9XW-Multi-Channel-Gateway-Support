@@ -51,7 +51,7 @@ A lightweight, fully configurable LoRa (HopeRF RFM95/96/97/98(W) ) library for S
 ---
 
 # Installation
-Download or copy [LoRa.c](https://github.com/SMotlaq/LoRa/blob/master/LoRa/LoRa.c) and [LoRa.h](https://github.com/SMotlaq/LoRa/blob/master/LoRa/LoRa.h)
+Download or copy [LoRa.c](https://github.com/subhra20/STM32-LoRa-Firmware-for-RFM9XW-Multi-Channel-Gateway-Support/blob/main/LoRa%20Node%20(Simple%20Tx%20and%20Rx%20Mode)/LoRa%20Node%20Transmit%20(Tx%20Mode)/LoRa_Transmeter_STM32G030F6P6/Core/Src/LoRa.c) and [LoRa.h](https://github.com/subhra20/STM32-LoRa-Firmware-for-RFM9XW-Multi-Channel-Gateway-Support/blob/main/LoRa%20Node%20(Simple%20Tx%20and%20Rx%20Mode)/LoRa%20Node%20Transmit%20(Tx%20Mode)/LoRa_Transmeter_STM32G030F6P6/Core/Inc/LoRa.h)
 , import them into your project and then include LoRa.h in main.c:
 ```C
 #include "LoRa.h"
