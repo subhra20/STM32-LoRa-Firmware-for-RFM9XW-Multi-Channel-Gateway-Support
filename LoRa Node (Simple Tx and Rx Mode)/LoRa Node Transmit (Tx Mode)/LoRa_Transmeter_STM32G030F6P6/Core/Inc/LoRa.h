@@ -2,7 +2,7 @@
  * LoRa.h
  *
  *  Created on: Dec 3, 2023
- *      Author: subhr
+ *      Author: subhra
  */
 
 #ifndef INC_LORA_H_
