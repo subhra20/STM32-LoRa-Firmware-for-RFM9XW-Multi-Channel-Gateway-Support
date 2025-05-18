@@ -28,13 +28,19 @@ A lightweight, fully configurable LoRa (HopeRF RFM95/96/97/98(W) ) library for S
 
 ## 🔧 Hardware Requirements
 
-- [RFM9xW LoRa Module](https://www.hoperf.com/modules/lora/RFM95.html)
+- [RFM9xW LoRa Module](https://github.com/subhra20/STM32-LoRa-Firmware-for-RFM9XW-Multi-Channel-Gateway-Support/blob/main/images/LoRa%20Node_2.jpeg)
 - [RFM9xW Breakout PCB (Assembled)](https://github.com/attexx/rfm9x_breakout_board)
 - GSM Antenna – 2 dBi Rubber Duck R/A SMA (M)
 - STM32 Microcontroller (Any board with SPI and EXTI support)
 
 ---
+## 🧠 Multichannel LoRa Gateway with FreeRTOS
 
+We developed a **4-channel LoRa Gateway** using **FreeRTOS** on STM32. Each LoRa module is managed in an independent FreeRTOS task, enabling **parallel message handling** from multiple nodes. This design mimics industrial LoRa gateways and provides scalable communication for dense deployments.
+
+([Multichannel LoRa Gateway Setup](https://github.com/subhra20/STM32-LoRa-Firmware-for-RFM9XW-Multi-Channel-Gateway-Support/blob/main/images/4%20Channel%20LoRa%20Gateway.jpeg))
+
+---
 ## ⚙️ Wiring
 
 | STM32 Pin               | LoRa Module Pin        |
