@@ -2,7 +2,7 @@
  * LoRa_iii.h
  *
  *  Created on: Mar 2, 2025
- *      Author: subhr
+ *      Author: subhra
  */
 
 #ifndef INC_LORA_III_H_
