@@ -1,0 +1,158 @@
+Configuration	LoRa_Gateway_STM32F429_FreeRTOS_Max_SPI_Channel
+STM32CubeMX 	6.9.1
+Date	05/18/2025
+MCU	STM32F429ZITx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0/OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1/OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14/OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15/OSC32_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI3	Full-Duplex Master	SPI3_MISO	PC11
+SPI3	Full-Duplex Master	SPI3_MOSI	PC12
+SPI3	Full-Duplex Master	SPI3_SCK	PC10
+SPI4	Full-Duplex Master	SPI4_MISO	PE5
+SPI4	Full-Duplex Master	SPI4_MOSI	PE6
+SPI4	Full-Duplex Master	SPI4_SCK	PE2
+SPI6	Full-Duplex Master	SPI6_MISO	PG12
+SPI6	Full-Duplex Master	SPI6_MOSI	PG14
+SPI6	Full-Duplex Master	SPI6_SCK	PG13
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	TIM1	SYS_VS_tim1	VP_SYS_VS_tim1
+USART3	Asynchronous	USART3_RX	PD9
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PE2	SPI4_SCK	
+2	PE3	GPIO_Output	NSS_2
+3	PE4	GPIO_Output	RST_2
+4	PE5	SPI4_MISO	
+5	PE6	SPI4_MOSI	
+7	PC13	GPIO_Input	User_Btn
+8	PC14/OSC32_IN	RCC_OSC32_IN	
+9	PC15/OSC32_OUT	RCC_OSC32_OUT	
+11	PF1	GPIO_EXTI1	DIO0_2
+18	PF6	GPIO_Output	NSS_1
+19	PF7	GPIO_Output	RST_1
+23	PH0/OSC_IN	RCC_OSC_IN	
+24	PH1/OSC_OUT	RCC_OSC_OUT	
+26	PC0	GPIO_Output	NSS
+27	PC1	GPIO_Output	RST
+28	PC2	GPIO_EXTI2	DIO0_0
+41	PA5	SPI1_SCK	
+42	PA6	SPI1_MISO	
+43	PA7	SPI1_MOSI	
+46	PB0	GPIO_Output	LED1
+75	PB14	GPIO_Output	LED3
+77	PD8	USART3_TX	
+78	PD9	USART3_RX	
+105	PA13	SYS_JTMS-SWDIO	
+109	PA14	SYS_JTCK-SWCLK	
+110	PA15	GPIO_EXTI15	DIO0_1
+111	PC10	SPI3_SCK	
+112	PC11	SPI3_MISO	
+113	PC12	SPI3_MOSI	
+124	PG9	GPIO_Output	RST_3
+125	PG10	GPIO_EXTI10	DIO0_3
+127	PG12	SPI6_MISO	
+128	PG13	SPI6_SCK	
+129	PG14	SPI6_MOSI	
+132	PG15	GPIO_Output	NSS_3
+137	PB7	GPIO_Output	LED2
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0/OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1/OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14/OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15/OSC32_OUT
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SPI3	Full-Duplex Master	SPI3_MISO	PC11
+SPI3	Full-Duplex Master	SPI3_MOSI	PC12
+SPI3	Full-Duplex Master	SPI3_SCK	PC10
+SPI4	Full-Duplex Master	SPI4_MISO	PE5
+SPI4	Full-Duplex Master	SPI4_MOSI	PE6
+SPI4	Full-Duplex Master	SPI4_SCK	PE2
+SPI6	Full-Duplex Master	SPI6_MISO	PG12
+SPI6	Full-Duplex Master	SPI6_MOSI	PG14
+SPI6	Full-Duplex Master	SPI6_SCK	PG13
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	TIM1	SYS_VS_tim1	VP_SYS_VS_tim1
+USART3	Asynchronous	USART3_RX	PD9
+USART3	Asynchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PE2	SPI4_SCK	
+2	PE3	GPIO_Output	NSS_2
+3	PE4	GPIO_Output	RST_2
+4	PE5	SPI4_MISO	
+5	PE6	SPI4_MOSI	
+7	PC13	GPIO_Input	User_Btn
+8	PC14/OSC32_IN	RCC_OSC32_IN	
+9	PC15/OSC32_OUT	RCC_OSC32_OUT	
+11	PF1	GPIO_EXTI1	DIO0_2
+18	PF6	GPIO_Output	NSS_1
+19	PF7	GPIO_Output	RST_1
+23	PH0/OSC_IN	RCC_OSC_IN	
+24	PH1/OSC_OUT	RCC_OSC_OUT	
+26	PC0	GPIO_Output	NSS
+27	PC1	GPIO_Output	RST
+28	PC2	GPIO_EXTI2	DIO0_0
+41	PA5	SPI1_SCK	
+42	PA6	SPI1_MISO	
+43	PA7	SPI1_MOSI	
+46	PB0	GPIO_Output	LED1
+75	PB14	GPIO_Output	LED3
+77	PD8	USART3_TX	
+78	PD9	USART3_RX	
+105	PA13	SYS_JTMS-SWDIO	
+109	PA14	SYS_JTCK-SWCLK	
+110	PA15	GPIO_EXTI15	DIO0_1
+111	PC10	SPI3_SCK	
+112	PC11	SPI3_MISO	
+113	PC12	SPI3_MOSI	
+124	PG9	GPIO_Output	RST_3
+125	PG10	GPIO_EXTI10	DIO0_3
+127	PG12	SPI6_MISO	
+128	PG13	SPI6_SCK	
+129	PG14	SPI6_MOSI	
+132	PG15	GPIO_Output	NSS_3
+137	PB7	GPIO_Output	LED2
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : LoRa_Gateway_STM32F429_FreeRTOS_Max_SPI_Channel
+Project Folder : D:\STM32 CubeIDE Workspace\LoRa_STM32_Directory\LoRa_Gateway_STM32F429_FreeRTOS_Max_SPI_Channel
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.27.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

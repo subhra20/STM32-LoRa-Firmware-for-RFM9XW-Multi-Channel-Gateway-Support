@@ -1,0 +1,74 @@
+Configuration	LoRa_Transmeter_STM32G030F6P6
+STM32CubeMX 	6.9.1
+Date	11/03/2024
+MCU	STM32G030F6Px
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA2
+SPI1	Full-Duplex Master	SPI1_SCK	PA1
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PA1	SPI1_SCK	
+9	PA2	SPI1_MOSI	
+11	PA4	GPIO_Output	RST
+12	PA5	GPIO_Output	NSS
+13	PA6	SPI1_MISO	
+14	PA7	GPIO_Output	Status_LED
+15	PB2	GPIO_EXTI2	DIO0
+18	PA13	SYS_SWDIO	
+19	PA14-BOOT0	SYS_SWCLK	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA2
+SPI1	Full-Duplex Master	SPI1_SCK	PA1
+SYS	Serial Wire	SYS_SWCLK	PA14-BOOT0
+SYS	Serial Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PA1	SPI1_SCK	
+9	PA2	SPI1_MOSI	
+11	PA4	GPIO_Output	RST
+12	PA5	GPIO_Output	NSS
+13	PA6	SPI1_MISO	
+14	PA7	GPIO_Output	Status_LED
+15	PB2	GPIO_EXTI2	DIO0
+18	PA13	SYS_SWDIO	
+19	PA14-BOOT0	SYS_SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : LoRa_Transmeter_STM32G030F6P6
+Project Folder : D:\STM32 CubeIDE Workspace\LoRa_Transmeter_STM32G030F6P6
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_G0 V1.6.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

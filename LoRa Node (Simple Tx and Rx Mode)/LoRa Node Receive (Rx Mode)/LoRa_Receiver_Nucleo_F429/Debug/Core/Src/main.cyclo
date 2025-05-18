@@ -1,0 +1,5 @@
+../Core/Src/main.c:15:5:main	2
+../Core/Src/main.c:55:6:SystemClock_Config	4
+../Core/Src/main.c:109:13:MX_SPI1_Init	2
+../Core/Src/main.c:147:13:MX_GPIO_Init	1
+../Core/Src/main.c:186:6:Error_Handler	1
